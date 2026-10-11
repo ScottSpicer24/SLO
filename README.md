@@ -1,7 +1,3 @@
-# SLO
-Life organizer for me.
+# Spicer Life Organizer (SLO)
+Life organizer for me. Right now is in dev, first will be a budgets components.
 
-## TODOs
-[] BE Notes
-[] Tests Notes
-[] TDD for a singel CRUD endpoint

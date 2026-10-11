@@ -66,6 +66,13 @@ my-app/
 ├── requirements-dev.txt            # pytest, moto, boto3, etc.
 └── README.md
 ```
+## pytest.ini
+- A config file that Pytest looks for it automatically when it starts up. "how to run this suite"
+- `pythonpath = src` Adds `be/src` to `sys.path` __before__ any tests are imported.
+    - Makes things like `from shared.db import tables` work 
+- `testpaths = tests` tells pytest to only collect tests from the `tests/` directory
+    - this way I can just run pytest and not pytest tests/
+
 ## be/src/
 ### be/src/functions
 - need a *handler.py* file for the actual lambda

@@ -1,2 +1,6 @@
 .env
 sample-lambda/
+FEATURES.md
+*__pycache__
+*__pycache__/
+.venv/

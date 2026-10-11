@@ -1,0 +1,20 @@
+{
+  "resource": "/users",
+  "path": "/users",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "application/json",
+    "Content-Type": "application/json"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "requestContext": {
+    "resourcePath": "/users",
+    "httpMethod": "POST",
+    "path": "/users",
+    "requestId": "test-request-id",
+    "stage": "test"
+  },
+  "body": "{\"name\": \"Scott\", \"email\": \"scott@example.com\"}",
+  "isBase64Encoded": false
+}

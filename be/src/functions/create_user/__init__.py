@@ -1,0 +1,1 @@
+"""Handler package for the ``create_user`` Lambda."""
